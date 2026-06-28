@@ -1,0 +1,20 @@
+# Raw dataset (too large, not code)
+midi_songs/midi/
+midi_songs/*.mid
+
+# Trained models (large binary files - regenerate locally)
+models/*.keras
+models/*.pkl
+
+# Generated outputs
+output/*.mid
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
